@@ -1,7 +1,7 @@
 # makefile: Rnw -> tex -> pdf
 # v 2.0
 # .Rnw extension is automatically added
-file_name = probability_klsh_2022
+file_name = number_two_2023
 
 $(file_name).pdf: $(file_name).tex 
 	# protection against biber error
